@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- <script src="https://Kit.fontawesome.com/c4254e24a8.js" crossorgin="anonymous"></script> -->
+  </head>
+  <body>
+    <div id="header">
+       <div class="container">
+          <nav >
+
+            <img src="2.png" class="logo" >
+             <ul  id="sidemenu">
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Education</a></li>
+               <li><a href="#portfolio">My Work</a></li>
+               <li><a href="#contact">Contact</a></li>
+              <i class="bx bx-x" onclick="closemenu()"></i>
+             </ul>
+             <i class="bx bx-menu" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+               <p class="web">Web Developer</p>
+                <h1>Hi, I'm <span>Rajitha</span></h1>
+          </div>
+       </div>
+    </div>
+    <!--- ------ about---------- -- -->
+   <div id="about">
+      <div class="container">
+         <div class="row">
+
+            <div class="about-col-1">
+                <img src="mypic2.jpg" />
+            </div>
+
+            <div class="about-col-2">
+                 <h1 class="sub-title">About Me</h1>
+                 <p>A result oriented Fresher Front End Developer looking for an opportunity in a reputed organization 
+                    where i can upgrade my knowledge and skills in the field of software. </p>
+
+           <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+              <p class="tab-links" onclick="opentab('languages')">Languages</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+           </div>
+
+           <div class="tab-contents active-tab" id="skills">
+             <ul>
+               <li><i class='bx bxl-html5' style='color:#b54769'></i> HTML</li>
+               <li><i class='bx bxl-css3' style='color:#b54769'></i> CSS</li>
+               <li><i class='bx bxl-javascript' style='color:#b54769'></i> JavaScript</li>
+               <li><i class='bx bxl-bootstrap' style='color:#b54769'></i> BootStrap</li>
+               <li><i class='bx bxl-java' style='color:#b54769'></i>Java</li>
+               <li><i class='bx bxs-data'style='color:#b54769'></i>SQL</li>
+             </ul>
+           </div>
+
+          <div class="tab-contents" id="languages">
+            <ul>
+              <li>English</li>
+              <li>Telugu</li>
+              <li>Hindi</li>
+              <li>Kannada</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2024</span><br>MCA</li>
+              <li><span>2019</span><br>BCOM</li>
+              <li><span>2008-2010</span><br>Intermediate</li>
+              <li><span>2008</span><br>SSC</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- ----------------services--------- -->
+ <div id="services">
+    <div class="container">
+          <h1 class="sub-title">My Education</h1>
+          <div class="services-list">
+             <div>
+              <i class='bx bx-code-alt'></i>
+                 <h2>MCA</h2>
+                 <p>I am pursuing MCA in Jain University in the Stream of Computer Science and Information Technology and
+                  (CS & IT)  the duration is 2022-2024.</p>
+                 <a href="#"></a>
+            </div>
+
+            <div>
+              <i class='bx bx-crop'></i>
+                <h2>B.COM</h2>
+                <p>I have completed my B.com in Geetam University  and scored cgpa of 8.2 and
+                   the duration is 2017-2019</p>
+                 <a href="#"></a>
+            </div>
+
+            <div>
+                  <i class='bx bx-code-alt'></i>
+                 <h2>Intermediate</h2>
+                 <p>I have Completed my intermediate in SriChaitanya Junior College and my cgpa is 7.7 and 
+                    the Duration is 2008-2010</p>
+                 <a href="#"></a>
+            </div>
+
+            <!-- <div>
+              <i class='bx bx-code-alt'></i>
+             <h2>App Design</h2>
+             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
+                quisquam eius fuga quaerat unde impedit illo ipsam iste reiciendis
+                voluptas animi doloremque numquam exercitationem ab nemo doloribus
+                velit eligendi odit?</p>
+             <a href="#">Learn more</a>
+        </div> -->
+
+        </div>
+      </div>
+    </div>
+    <!--------------Portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+               <div class="work">
+                     <img src="imagesclockanalog.jpeg" >
+                     <div class="layer">
+                        <h3>AnalogClock</h3>
+                         <p>This project makes use of JavaScript, HTML, and CSS.
+                          AnalogClock is a tool we use to tell the current time 
+                          using moving hands and a circular dial marked with
+                          hours,minutes and sometimes seconds.   </p>
+                         <a href=" https://9686477769.github.io/AnalogClock/" ><i class='bx bx-link-external'></i></a>
+                     </div>
+                </div>
+
+              <div class="work">
+                   <img src="imagescoverter.png" >
+                   <div class="layer">
+                       <h3>Converter</h3>
+                       <p> This project makes use of JavaScript, HTML, and CSS.
+                           This project has the ability to convert length between different dimensions. </p>
+                       <a href="https://9686477769.github.io/converter/"><i class='bx bx-link-external'></i></a>
+                  </div>
+             </div>
+
+             <div class="work">
+                   <img src="imgotp.png" >
+                   <div class="layer">
+                       <h3>OTP-generator</h3>
+                       <p> This project makes use of JavaScript, HTML, and CSS.
+                           This project has the ability to generate otp(One Time Password). </p>
+                       <a href=" https://9686477769.github.io/OTP-generator/"><i class='bx bx-link-external'></i></a>
+                  </div>
+             </div>
+
+             <div class="work">
+                  <img src="imagesmultiple2.jpeg" />
+                   <div class="layer">
+                         <h3>Multiplication Table Generator</h3>
+                         <p> This project makes use of JavaScript, HTML, and CSS.
+                             This project generates a table showing the product of
+                             numbers.it can be useful for practicing Multiplication 
+                             facts or for quick reference.</p>
+                         <a href=" https://9686477769.github.io/Mulitiplication-generater/"><i class='bx bx-link-external'></i></a>
+                   </div>
+             </div>
+
+         </div>
+                         <a href="#" class="btn">See more</a>
+       </div>
+     </div>
+
+    <!--------- contact--------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+
+           <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="bx bxs-send"></i>vasavishekhar399@gmail.com</p>
+                   <p><i class="bx bxs-phone-call"></i>9686477769</p>
+              <div class="social-icons">
+                   <a href=""><i class="bx bxl-facebook-circle"></i></a>
+                   <a href=""><i class="bx bxl-twitter"></i></a>
+                   <a href=""><i class="bx bxl-instagram"></i></a>
+                   <a href=""><i class="bx bxl-linkedin"></i></a>
+              </div>
+                <a href="RAJITHA's Resume HTML,CSS,JAVASCRIPT.pdf" download class="btn btn2">Download Cv</a>
+          </div>
+
+            <div class="contact-right">
+               <form>
+                  <input type="text" name="Name" placeholder="Your Name" requried >
+                  <input  type="email" name="Email" placeholder="Your Email"  required >
+                  <textarea name="Message"rows="6" placeholder="Your Message" ></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+              </form>
+           </div>
+
+        </div>
+    </div>
+           <div class="copyright">
+              <p>copyright @ Rajitha.Made with<i class="bx bxs-heart"></i>my efforts</p>
+</div>
+
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    
+    <script>
+      function array(){
+        let a=["Fronted Developer","Software Tester","Web Developer"]
+        let index = Math.floor(Math.random()*a.length)
+        let output = document.querySelector(".web")
+        output.innerHTML=a[index];
+      }  
+      setInterval(array,1000);
+
+
+      // function changeColor(){
+      //      let web = document.querySelector('.web').style.backgroundColor ='#F138DB';
+      //   }
+      //   setInterval(changeColor,5000);
+      
+    </script>
+  </body>
+</html>
